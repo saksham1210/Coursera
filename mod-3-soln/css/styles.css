@@ -1,0 +1,26 @@
+body{
+	font-size: 16px;
+}
+#navbar-header{
+  background-color: pink;
+  border-radius: 0;
+  border-bottom: 3px solid darkred;
+}
+.navbar-brand a, .navbar-list a{
+	text-decoration: none;
+	font-size: 2em;
+	padding:4px;
+}
+#nav-list li{
+	margin: 10px;
+	border:2px darkred solid;
+}
+#nav-list a:hover li{
+	background-color: gray;
+}
+#description{
+	background-color: gray;
+}
+#description p{
+	padding:5px;
+}
